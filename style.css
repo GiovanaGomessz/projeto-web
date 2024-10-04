@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color:#0D1321;
+    color:#F4F4F9;
+}
+
+a{
+    color:#73e4df;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a:hover {
+    color:#89fb59 ;
+
+}
+
+nav {
+    background-color:#0C1B33 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+.logo{
+    text-transform: uppercase;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    letter-spacing: 1.5px;
+}
+
+p {
+    letter-spacing: 2px;
+    font-size: 20px;
+}
