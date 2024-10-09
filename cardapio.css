@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to bottom,#973961,#8b8b8b);
+    color:#0D1B2A;
+
+}
+
+a{
+    color:#E5E7E6;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a:hover {
+    color:#BE90A4 ;
+}
+
+nav {
+    background-color:#973961;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+    height: 10vh;
+}
+
+.logo{
+    text-transform: uppercase;
+    border-radius: 50%;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    letter-spacing: 1.5px;
+}
+
+p {
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+img {
+    height: 60px;
+    transition: 0.3s
+}
+
+.arear img:hover{
+    transform: scale(1.05);
+}
+
+.arear{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.desenho {
+    display: flex;
+    align-items: center;
+}
+
+.txt {
+    width: 0px;
+    overflow: hidden;
+    transition: 0.4s;
+    color: #ffffff
+    
+}
+
+.desenho:hover .txt{
+    width: 70px
+}
+
+.card .pratos:hover{
+    transform: translateY(-10px);
+    background-color: #E5E7E6;
+    color: #973961;
+}
+
+.card{
+    display: flex;
+    grid-template-columns: repeat(3, 1r);
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #E5E7E6;
+}
+
+.pratos{
+    width: 300px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #973961;
+    transition: 0.3s;
+}
+
+.comida{
+    border-radius: 8px;
+}
